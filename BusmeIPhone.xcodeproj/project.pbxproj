@@ -1,0 +1,1338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F3D4BDA51751934300F152CC /* PutitTogether */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F3D4BDAE1751937F00F152CC /* Build configuration list for PBXAggregateTarget "PutitTogether" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F3D4BDA91751934B00F152CC /* PBXTargetDependency */,
+				F3D4BDAB1751936100F152CC /* PBXTargetDependency */,
+			);
+			name = PutitTogether;
+			productName = PutitTogether;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BusmeIPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BusmeIPhoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BusmeIPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BusmeIPhoneViewController.m */; };
+		F33BA0B51751DF2200B36CA0 /* obj.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F33BA0B31751DF2200B36CA0 /* obj.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F33BA0B61751DF2200B36CA0 /* obj.c in Sources */ = {isa = PBXBuildFile; fileRef = F33BA0B41751DF2200B36CA0 /* obj.c */; };
+		F33BA13C1751E84900B36CA0 /* BusmeProgressDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33BA1391751E84900B36CA0 /* BusmeProgressDialogController.xib */; };
+		F33BA2FC17526C8B00B36CA0 /* BusmeProgressDialog.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F33BA2F917526C8B00B36CA0 /* BusmeProgressDialog.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F33BA2FD17526C8B00B36CA0 /* BusmeProgressDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F33BA2FA17526C8B00B36CA0 /* BusmeProgressDialog.m */; };
+		F33BA2FE17526C8B00B36CA0 /* BusmeProgressDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33BA2FB17526C8B00B36CA0 /* BusmeProgressDialog.xib */; };
+		F33BA4AF1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F33BA4AC1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.h */; settings = {JAVA_ARCHIVE_SUBDIR = AGAlertViewWithProgressbar; }; };
+		F33BA4B01752AAFE00B36CA0 /* AGAlertViewWithProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F33BA4AD1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.m */; };
+		F33BA4B11752AAFE00B36CA0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F33BA4AE1752AAFE00B36CA0 /* LICENSE */; };
+		F33BA67B1752D90100B36CA0 /* iToast.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F33BA6791752D90100B36CA0 /* iToast.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F33BA67C1752D90100B36CA0 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F33BA67A1752D90100B36CA0 /* iToast.m */; };
+		F33BA74E1752F38000B36CA0 /* MasterMessagePopup.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F33BA74B1752F38000B36CA0 /* MasterMessagePopup.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F33BA74F1752F38000B36CA0 /* MasterMessagePopup.m in Sources */ = {isa = PBXBuildFile; fileRef = F33BA74C1752F38000B36CA0 /* MasterMessagePopup.m */; };
+		F384B6BA1750F1DD00558DE1 /* MQMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F384B6B91750F1DD00558DE1 /* MQMapKit.framework */; };
+		F384B6E71750F26300558DE1 /* BusmeMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F384B6E41750F26300558DE1 /* BusmeMapView.m */; };
+		F384B6E81750F26300558DE1 /* BusmeOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F384B6E61750F26300558DE1 /* BusmeOverlayManager.m */; };
+		F384B8491750F58800558DE1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F384B8481750F58800558DE1 /* QuartzCore.framework */; };
+		F384B84F1750F5B000558DE1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F384B84E1750F5B000558DE1 /* CoreLocation.framework */; };
+		F384B9CA175114A400558DE1 /* BusmeIPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F384B9C9175114A400558DE1 /* BusmeIPhoneViewController.xib */; };
+		F3D4B9D4175178D800F152CC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F3D4B9D3175178D800F152CC /* Makefile */; };
+		F3D4B9DA1751796500F152CC /* edit in Resources */ = {isa = PBXBuildFile; fileRef = F3D4B9D91751796500F152CC /* edit */; };
+		F3D4BD9A1751915400F152CC /* BusmeMapView.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F384B6E31750F26300558DE1 /* BusmeMapView.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F3D4BD9B1751915400F152CC /* BusmeOverlayManager.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F384B6E51750F26300558DE1 /* BusmeOverlayManager.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F3D4BD9C1751915400F152CC /* BusmeIPhoneAppDelegate.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = 1D3623240D0F684500981E51 /* BusmeIPhoneAppDelegate.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F3D4BD9D1751915400F152CC /* BusmeIPhoneViewController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = 28D7ACF60DDB3853001CB0EB /* BusmeIPhoneViewController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes; }; };
+		F3D4C2611751944D00F152CC /* APIBase.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0681751944D00F152CC /* APIBase.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2621751944D00F152CC /* APIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0691751944D00F152CC /* APIBase.m */; };
+		F3D4C2631751944D00F152CC /* BannerInfo.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C06A1751944D00F152CC /* BannerInfo.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2641751944D00F152CC /* BannerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C06B1751944D00F152CC /* BannerInfo.m */; };
+		F3D4C2651751944D00F152CC /* Buspass.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C06C1751944D00F152CC /* Buspass.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2661751944D00F152CC /* Buspass.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C06D1751944D00F152CC /* Buspass.m */; };
+		F3D4C2671751944D00F152CC /* BuspassAPI.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C06E1751944D00F152CC /* BuspassAPI.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2681751944D00F152CC /* BuspassAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C06F1751944D00F152CC /* BuspassAPI.m */; };
+		F3D4C2691751944D00F152CC /* DiscoverAPI.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0701751944D00F152CC /* DiscoverAPI.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C26A1751944D00F152CC /* DiscoverAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0711751944D00F152CC /* DiscoverAPI.m */; };
+		F3D4C26B1751944D00F152CC /* DiscoverAPIVersion1.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0721751944D00F152CC /* DiscoverAPIVersion1.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C26C1751944D00F152CC /* DiscoverAPIVersion1.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0731751944D00F152CC /* DiscoverAPIVersion1.m */; };
+		F3D4C26D1751944D00F152CC /* JourneyLocation.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0741751944D00F152CC /* JourneyLocation.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C26E1751944D00F152CC /* JourneyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0751751944D00F152CC /* JourneyLocation.m */; };
+		F3D4C26F1751944D00F152CC /* JourneyPattern.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0761751944D00F152CC /* JourneyPattern.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2701751944D00F152CC /* JourneyPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0771751944D00F152CC /* JourneyPattern.m */; };
+		F3D4C2711751944D00F152CC /* MarkerInfo.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0781751944D00F152CC /* MarkerInfo.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2721751944D00F152CC /* MarkerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0791751944D00F152CC /* MarkerInfo.m */; };
+		F3D4C2731751944D00F152CC /* Master.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C07A1751944D00F152CC /* Master.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2741751944D00F152CC /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C07B1751944D00F152CC /* Master.m */; };
+		F3D4C2751751944D00F152CC /* MasterMessage.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C07C1751944D00F152CC /* MasterMessage.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2761751944D00F152CC /* MasterMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C07D1751944D00F152CC /* MasterMessage.m */; };
+		F3D4C2771751944D00F152CC /* NameId.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C07E1751944D00F152CC /* NameId.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C2781751944D00F152CC /* NameId.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C07F1751944D00F152CC /* NameId.m */; };
+		F3D4C2791751944D00F152CC /* Route.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0801751944D00F152CC /* Route.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C27A1751944D00F152CC /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0811751944D00F152CC /* Route.m */; };
+		F3D4C27B1751944D00F152CC /* Storage.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0821751944D00F152CC /* Storage.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/api; }; };
+		F3D4C27C1751944D00F152CC /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0831751944D00F152CC /* Storage.m */; };
+		F3D4C27D1751944D00F152CC /* Arguments.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0851751944D00F152CC /* Arguments.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C27E1751944D00F152CC /* Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0861751944D00F152CC /* Arguments.m */; };
+		F3D4C27F1751944D00F152CC /* BoundingBoxE6.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0871751944D00F152CC /* BoundingBoxE6.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2801751944D00F152CC /* BoundingBoxE6.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0881751944D00F152CC /* BoundingBoxE6.m */; };
+		F3D4C2811751944D00F152CC /* DisplayPlaneModelController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0891751944D00F152CC /* DisplayPlaneModelController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2821751944D00F152CC /* DisplayPlaneModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C08A1751944D00F152CC /* DisplayPlaneModelController.m */; };
+		F3D4C2831751944D00F152CC /* ExternalStorage.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C08B1751944D00F152CC /* ExternalStorage.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2841751944D00F152CC /* ExternalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C08C1751944D00F152CC /* ExternalStorage.m */; };
+		F3D4C2851751944D00F152CC /* GeoPoint.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C08D1751944D00F152CC /* GeoPoint.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2861751944D00F152CC /* GeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C08E1751944D00F152CC /* GeoPoint.m */; };
+		F3D4C2871751944D00F152CC /* Handler.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C08F1751944D00F152CC /* Handler.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2881751944D00F152CC /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0901751944D00F152CC /* Handler.m */; };
+		F3D4C2891751944D00F152CC /* Header.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0921751944D00F152CC /* Header.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C28A1751944D00F152CC /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0931751944D00F152CC /* Header.m */; };
+		F3D4C28B1751944D00F152CC /* HttpEntity.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0941751944D00F152CC /* HttpEntity.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C28C1751944D00F152CC /* HttpEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0951751944D00F152CC /* HttpEntity.m */; };
+		F3D4C28D1751944D00F152CC /* HttpResponse.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0961751944D00F152CC /* HttpResponse.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C28E1751944D00F152CC /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0971751944D00F152CC /* HttpResponse.m */; };
+		F3D4C28F1751944D00F152CC /* BasicNameValuePair.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0991751944D00F152CC /* BasicNameValuePair.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http/message; }; };
+		F3D4C2901751944D00F152CC /* BasicNameValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C09A1751944D00F152CC /* BasicNameValuePair.m */; };
+		F3D4C2911751944D00F152CC /* MyHttpClient.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C09B1751944D00F152CC /* MyHttpClient.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C2921751944D00F152CC /* MyHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C09C1751944D00F152CC /* MyHttpClient.m */; };
+		F3D4C2931751944D00F152CC /* NameValuePair.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C09D1751944D00F152CC /* NameValuePair.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C2941751944D00F152CC /* NameValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C09E1751944D00F152CC /* NameValuePair.m */; };
+		F3D4C2951751944D00F152CC /* StatusLine.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C09F1751944D00F152CC /* StatusLine.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration/http; }; };
+		F3D4C2961751944D00F152CC /* StatusLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0A01751944D00F152CC /* StatusLine.m */; };
+		F3D4C2971751944D00F152CC /* Location.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0A11751944D00F152CC /* Location.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2981751944D00F152CC /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0A21751944D00F152CC /* Location.m */; };
+		F3D4C2991751944D00F152CC /* LocationListenerDelegate.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0A31751944D00F152CC /* LocationListenerDelegate.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C29A1751944D00F152CC /* LocationListenerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0A41751944D00F152CC /* LocationListenerDelegate.m */; };
+		F3D4C29B1751944D00F152CC /* LocationManager.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0A51751944D00F152CC /* LocationManager.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C29C1751944D00F152CC /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0A61751944D00F152CC /* LocationManager.m */; };
+		F3D4C29D1751944D00F152CC /* LocationProvider.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0A71751944D00F152CC /* LocationProvider.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C29E1751944D00F152CC /* LocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0A81751944D00F152CC /* LocationProvider.m */; };
+		F3D4C29F1751944D00F152CC /* Log.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0A91751944D00F152CC /* Log.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2A01751944D00F152CC /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0AA1751944D00F152CC /* Log.m */; };
+		F3D4C2A11751944D00F152CC /* StorageSerializer.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0AB1751944D00F152CC /* StorageSerializer.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/integration; }; };
+		F3D4C2A21751944D00F152CC /* StorageSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0AC1751944D00F152CC /* StorageSerializer.m */; };
+		F3D4C2A31751944D00F152CC /* ActivityAPI.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0AE1751944D00F152CC /* ActivityAPI.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2A41751944D00F152CC /* ActivityAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0AF1751944D00F152CC /* ActivityAPI.m */; };
+		F3D4C2A51751944D00F152CC /* Arguments.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0B01751944D00F152CC /* Arguments.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2A61751944D00F152CC /* Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0B11751944D00F152CC /* Arguments.m */; };
+		F3D4C2A71751944D00F152CC /* BannerBasket.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0B21751944D00F152CC /* BannerBasket.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2A81751944D00F152CC /* BannerBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0B31751944D00F152CC /* BannerBasket.m */; };
+		F3D4C2A91751944D00F152CC /* BannersController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0B41751944D00F152CC /* BannersController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2AA1751944D00F152CC /* BannersController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0B51751944D00F152CC /* BannersController.m */; };
+		F3D4C2AB1751944D00F152CC /* BannersRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0B61751944D00F152CC /* BannersRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2AC1751944D00F152CC /* BannersRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0B71751944D00F152CC /* BannersRequestProcessor.m */; };
+		F3D4C2AD1751944D00F152CC /* BannerStore.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0B81751944D00F152CC /* BannerStore.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2AE1751944D00F152CC /* BannerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0B91751944D00F152CC /* BannerStore.m */; };
+		F3D4C2AF1751944D00F152CC /* BusmeActivityController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0BA1751944D00F152CC /* BusmeActivityController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2B01751944D00F152CC /* BusmeActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0BB1751944D00F152CC /* BusmeActivityController.m */; };
+		F3D4C2B11751944D00F152CC /* BusmeConfigurator.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0BC1751944D00F152CC /* BusmeConfigurator.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2B21751944D00F152CC /* BusmeConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0BD1751944D00F152CC /* BusmeConfigurator.m */; };
+		F3D4C2B31751944D00F152CC /* BusmeGeographyController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0BE1751944D00F152CC /* BusmeGeographyController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2B41751944D00F152CC /* BusmeGeographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0BF1751944D00F152CC /* BusmeGeographyController.m */; };
+		F3D4C2B51751944D00F152CC /* BuspassEvent.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0C01751944D00F152CC /* BuspassEvent.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2B61751944D00F152CC /* BuspassEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0C11751944D00F152CC /* BuspassEvent.m */; };
+		F3D4C2B71751944D00F152CC /* BuspassEventListener.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0C21751944D00F152CC /* BuspassEventListener.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2B81751944D00F152CC /* BuspassEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0C31751944D00F152CC /* BuspassEventListener.m */; };
+		F3D4C2B91751944D00F152CC /* Constants.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0C41751944D00F152CC /* Constants.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2BA1751944D00F152CC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0C51751944D00F152CC /* Constants.m */; };
+		F3D4C2BB1751944D00F152CC /* DisplayPlaneModelController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0C61751944D00F152CC /* DisplayPlaneModelController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2BC1751944D00F152CC /* DisplayPlaneModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0C71751944D00F152CC /* DisplayPlaneModelController.m */; };
+		F3D4C2BD1751944D00F152CC /* ExternalStorage.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0C81751944D00F152CC /* ExternalStorage.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2BE1751944D00F152CC /* ExternalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0C91751944D00F152CC /* ExternalStorage.m */; };
+		F3D4C2BF1751944D00F152CC /* GeoCalc.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0CA1751944D00F152CC /* GeoCalc.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2C01751944D00F152CC /* GeoCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0CB1751944D00F152CC /* GeoCalc.m */; };
+		F3D4C2C11751944D00F152CC /* GeoPathUtils.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0CC1751944D00F152CC /* GeoPathUtils.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2C21751944D00F152CC /* GeoPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0CD1751944D00F152CC /* GeoPathUtils.m */; };
+		F3D4C2C31751944D00F152CC /* GeoPointSerializable.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0CE1751944D00F152CC /* GeoPointSerializable.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2C41751944D00F152CC /* GeoPointSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0CF1751944D00F152CC /* GeoPointSerializable.m */; };
+		F3D4C2C51751944D00F152CC /* Handler.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0D01751944D00F152CC /* Handler.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2C61751944D00F152CC /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0D11751944D00F152CC /* Handler.m */; };
+		F3D4C2C71751944D00F152CC /* JourneyBasket.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0D21751944D00F152CC /* JourneyBasket.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2C81751944D00F152CC /* JourneyBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0D31751944D00F152CC /* JourneyBasket.m */; };
+		F3D4C2C91751944D00F152CC /* JourneyBasketController.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0D41751944D00F152CC /* JourneyBasketController.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2CA1751944D00F152CC /* JourneyBasketController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0D51751944D00F152CC /* JourneyBasketController.m */; };
+		F3D4C2CB1751944D00F152CC /* JourneyBasketSync.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0D61751944D00F152CC /* JourneyBasketSync.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2CC1751944D00F152CC /* JourneyBasketSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0D71751944D00F152CC /* JourneyBasketSync.m */; };
+		F3D4C2CD1751944D00F152CC /* JourneyDisplay.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0D81751944D00F152CC /* JourneyDisplay.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2CE1751944D00F152CC /* JourneyDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0D91751944D00F152CC /* JourneyDisplay.m */; };
+		F3D4C2CF1751944D00F152CC /* JourneyLocationPoster.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0DA1751944D00F152CC /* JourneyLocationPoster.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2D01751944D00F152CC /* JourneyLocationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0DB1751944D00F152CC /* JourneyLocationPoster.m */; };
+		F3D4C2D11751944D00F152CC /* JourneysCurrentLocationRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0DC1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2D21751944D00F152CC /* JourneysCurrentLocationRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0DD1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.m */; };
+		F3D4C2D31751944D00F152CC /* JourneysSyncRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0DE1751944D00F152CC /* JourneysSyncRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2D41751944D00F152CC /* JourneysSyncRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0DF1751944D00F152CC /* JourneysSyncRequestProcessor.m */; };
+		F3D4C2D51751944D00F152CC /* JourneyStore.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0E01751944D00F152CC /* JourneyStore.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2D61751944D00F152CC /* JourneyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0E11751944D00F152CC /* JourneyStore.m */; };
+		F3D4C2D71751944D00F152CC /* Keys.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0E21751944D00F152CC /* Keys.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2D81751944D00F152CC /* Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0E31751944D00F152CC /* Keys.m */; };
+		F3D4C2D91751944D00F152CC /* Location.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0E41751944D00F152CC /* Location.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2DA1751944D00F152CC /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0E51751944D00F152CC /* Location.m */; };
+		F3D4C2DB1751944D00F152CC /* LocationBaseRouteFinder.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0E61751944D00F152CC /* LocationBaseRouteFinder.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2DC1751944D00F152CC /* LocationBaseRouteFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0E71751944D00F152CC /* LocationBaseRouteFinder.m */; };
+		F3D4C2DD1751944D00F152CC /* LocationListener.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0E81751944D00F152CC /* LocationListener.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2DE1751944D00F152CC /* LocationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0E91751944D00F152CC /* LocationListener.m */; };
+		F3D4C2DF1751944D00F152CC /* LocationListenerDelegate.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0EA1751944D00F152CC /* LocationListenerDelegate.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2E01751944D00F152CC /* LocationListenerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0EB1751944D00F152CC /* LocationListenerDelegate.m */; };
+		F3D4C2E11751944D00F152CC /* LocationManager.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0EC1751944D00F152CC /* LocationManager.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2E21751944D00F152CC /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0ED1751944D00F152CC /* LocationManager.m */; };
+		F3D4C2E31751944D00F152CC /* LocationProvider.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0EE1751944D00F152CC /* LocationProvider.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2E41751944D00F152CC /* LocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0EF1751944D00F152CC /* LocationProvider.m */; };
+		F3D4C2E51751944D00F152CC /* Log.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0F01751944D00F152CC /* Log.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2E61751944D00F152CC /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0F11751944D00F152CC /* Log.m */; };
+		F3D4C2E71751944D00F152CC /* LoginManager.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0F21751944D00F152CC /* LoginManager.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2E81751944D00F152CC /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0F31751944D00F152CC /* LoginManager.m */; };
+		F3D4C2E91751944D00F152CC /* MarkerBasket.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0F41751944D00F152CC /* MarkerBasket.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2EA1751944D00F152CC /* MarkerBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0F51751944D00F152CC /* MarkerBasket.m */; };
+		F3D4C2EB1751944D00F152CC /* MarkersRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0F61751944D00F152CC /* MarkersRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2EC1751944D00F152CC /* MarkersRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0F71751944D00F152CC /* MarkersRequestProcessor.m */; };
+		F3D4C2ED1751944D00F152CC /* MasterMessageBasket.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0F81751944D00F152CC /* MasterMessageBasket.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2EE1751944D00F152CC /* MasterMessageBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0F91751944D00F152CC /* MasterMessageBasket.m */; };
+		F3D4C2EF1751944D00F152CC /* MasterMessagesRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0FA1751944D00F152CC /* MasterMessagesRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2F01751944D00F152CC /* MasterMessagesRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0FB1751944D00F152CC /* MasterMessagesRequestProcessor.m */; };
+		F3D4C2F11751944D00F152CC /* MessageStore.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0FC1751944D00F152CC /* MessageStore.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2F21751944D00F152CC /* MessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0FD1751944D00F152CC /* MessageStore.m */; };
+		F3D4C2F31751944D00F152CC /* NewGetResponseProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C0FE1751944D00F152CC /* NewGetResponseProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2F41751944D00F152CC /* NewGetResponseProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C0FF1751944D00F152CC /* NewGetResponseProcessor.m */; };
+		F3D4C2F51751944D00F152CC /* OnLocatorSelectedListener.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1001751944D00F152CC /* OnLocatorSelectedListener.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2F61751944D00F152CC /* OnLocatorSelectedListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1011751944D00F152CC /* OnLocatorSelectedListener.m */; };
+		F3D4C2F71751944D00F152CC /* ProgressLogger.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1021751944D00F152CC /* ProgressLogger.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2F81751944D00F152CC /* ProgressLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1031751944D00F152CC /* ProgressLogger.m */; };
+		F3D4C2F91751944D00F152CC /* RatesRequestProcessor.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1041751944D00F152CC /* RatesRequestProcessor.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2FA1751944D00F152CC /* RatesRequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1051751944D00F152CC /* RatesRequestProcessor.m */; };
+		F3D4C2FB1751944D00F152CC /* RequestUpdater.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1061751944D00F152CC /* RequestUpdater.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme/platform; }; };
+		F3D4C2FC1751944D00F152CC /* RequestUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1071751944D00F152CC /* RequestUpdater.m */; };
+		F3D4C2FD1751944D00F152CC /* R.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1081751944D00F152CC /* R.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/com/adiron/busme; }; };
+		F3D4C2FE1751944D00F152CC /* R.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1091751944D00F152CC /* R.m */; };
+		F3D4C2FF1751944D00F152CC /* Observable.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C10C1751944D00F152CC /* Observable.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/java/util; }; };
+		F3D4C3001751944D00F152CC /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C10D1751944D00F152CC /* Observable.m */; };
+		F3D4C3011751944D00F152CC /* Observer.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C10E1751944D00F152CC /* Observer.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/java/util; }; };
+		F3D4C3021751944D00F152CC /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C10F1751944D00F152CC /* Observer.m */; };
+		F3D4C3031751944D00F152CC /* IGeoPoint.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1131751944D00F152CC /* IGeoPoint.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/org/osmdroid/api; }; };
+		F3D4C3041751944D00F152CC /* IGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1141751944D00F152CC /* IGeoPoint.m */; };
+		F3D4C3051751944D00F152CC /* GeoConstants.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1171751944D00F152CC /* GeoConstants.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/org/osmdroid/util/constants; }; };
+		F3D4C3061751944D00F152CC /* GeoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C1181751944D00F152CC /* GeoConstants.m */; };
+		F3D4C3071751944D00F152CC /* UtilConstants.h in JavaArchive */ = {isa = PBXBuildFile; fileRef = F3D4C1191751944D00F152CC /* UtilConstants.h */; settings = {JAVA_ARCHIVE_SUBDIR = Classes/org/osmdroid/util/constants; }; };
+		F3D4C3081751944D00F152CC /* UtilConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4C11A1751944D00F152CC /* UtilConstants.m */; };
+		F3D4C333175195A200F152CC /* libjre_emul.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D4C332175195A200F152CC /* libjre_emul.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D4BDA81751934B00F152CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D4B9C81751781A00F152CC;
+			remoteInfo = GenerateFromJava;
+		};
+		F3D4BDAA1751936100F152CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = BusmeIPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3D4BDA11751924400F152CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BusmeIPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeIPhoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BusmeIPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeIPhoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BusmeIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusmeIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BusmeIPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeIPhoneViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BusmeIPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeIPhoneViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BusmeIPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeIPhone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BusmeIPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BusmeIPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F33BA0B31751DF2200B36CA0 /* obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = obj.h; path = Classes/obj.h; sourceTree = "<group>"; };
+		F33BA0B41751DF2200B36CA0 /* obj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = obj.c; path = Classes/obj.c; sourceTree = "<group>"; };
+		F33BA1391751E84900B36CA0 /* BusmeProgressDialogController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusmeProgressDialogController.xib; sourceTree = "<group>"; };
+		F33BA2F917526C8B00B36CA0 /* BusmeProgressDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeProgressDialog.h; sourceTree = "<group>"; };
+		F33BA2FA17526C8B00B36CA0 /* BusmeProgressDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeProgressDialog.m; sourceTree = "<group>"; };
+		F33BA2FB17526C8B00B36CA0 /* BusmeProgressDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusmeProgressDialog.xib; sourceTree = "<group>"; };
+		F33BA4AC1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAlertViewWithProgressbar.h; sourceTree = "<group>"; };
+		F33BA4AD1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAlertViewWithProgressbar.m; sourceTree = "<group>"; };
+		F33BA4AE1752AAFE00B36CA0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F33BA6791752D90100B36CA0 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		F33BA67A1752D90100B36CA0 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		F33BA74B1752F38000B36CA0 /* MasterMessagePopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterMessagePopup.h; sourceTree = "<group>"; };
+		F33BA74C1752F38000B36CA0 /* MasterMessagePopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterMessagePopup.m; sourceTree = "<group>"; };
+		F384B6B91750F1DD00558DE1 /* MQMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MQMapKit.framework; sourceTree = "<group>"; };
+		F384B6E31750F26300558DE1 /* BusmeMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeMapView.h; sourceTree = "<group>"; };
+		F384B6E41750F26300558DE1 /* BusmeMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeMapView.m; sourceTree = "<group>"; };
+		F384B6E51750F26300558DE1 /* BusmeOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeOverlayManager.h; sourceTree = "<group>"; };
+		F384B6E61750F26300558DE1 /* BusmeOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeOverlayManager.m; sourceTree = "<group>"; };
+		F384B8481750F58800558DE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F384B84E1750F5B000558DE1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F384B9C9175114A400558DE1 /* BusmeIPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusmeIPhoneViewController.xib; sourceTree = "<group>"; };
+		F3D4B9D3175178D800F152CC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F3D4B9D91751796500F152CC /* edit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = edit; sourceTree = "<group>"; };
+		F3D4C0681751944D00F152CC /* APIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBase.h; sourceTree = "<group>"; };
+		F3D4C0691751944D00F152CC /* APIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBase.m; sourceTree = "<group>"; };
+		F3D4C06A1751944D00F152CC /* BannerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerInfo.h; sourceTree = "<group>"; };
+		F3D4C06B1751944D00F152CC /* BannerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerInfo.m; sourceTree = "<group>"; };
+		F3D4C06C1751944D00F152CC /* Buspass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buspass.h; sourceTree = "<group>"; };
+		F3D4C06D1751944D00F152CC /* Buspass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buspass.m; sourceTree = "<group>"; };
+		F3D4C06E1751944D00F152CC /* BuspassAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuspassAPI.h; sourceTree = "<group>"; };
+		F3D4C06F1751944D00F152CC /* BuspassAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuspassAPI.m; sourceTree = "<group>"; };
+		F3D4C0701751944D00F152CC /* DiscoverAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverAPI.h; sourceTree = "<group>"; };
+		F3D4C0711751944D00F152CC /* DiscoverAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverAPI.m; sourceTree = "<group>"; };
+		F3D4C0721751944D00F152CC /* DiscoverAPIVersion1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverAPIVersion1.h; sourceTree = "<group>"; };
+		F3D4C0731751944D00F152CC /* DiscoverAPIVersion1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverAPIVersion1.m; sourceTree = "<group>"; };
+		F3D4C0741751944D00F152CC /* JourneyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyLocation.h; sourceTree = "<group>"; };
+		F3D4C0751751944D00F152CC /* JourneyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyLocation.m; sourceTree = "<group>"; };
+		F3D4C0761751944D00F152CC /* JourneyPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyPattern.h; sourceTree = "<group>"; };
+		F3D4C0771751944D00F152CC /* JourneyPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyPattern.m; sourceTree = "<group>"; };
+		F3D4C0781751944D00F152CC /* MarkerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerInfo.h; sourceTree = "<group>"; };
+		F3D4C0791751944D00F152CC /* MarkerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerInfo.m; sourceTree = "<group>"; };
+		F3D4C07A1751944D00F152CC /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		F3D4C07B1751944D00F152CC /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		F3D4C07C1751944D00F152CC /* MasterMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterMessage.h; sourceTree = "<group>"; };
+		F3D4C07D1751944D00F152CC /* MasterMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterMessage.m; sourceTree = "<group>"; };
+		F3D4C07E1751944D00F152CC /* NameId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameId.h; sourceTree = "<group>"; };
+		F3D4C07F1751944D00F152CC /* NameId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameId.m; sourceTree = "<group>"; };
+		F3D4C0801751944D00F152CC /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		F3D4C0811751944D00F152CC /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		F3D4C0821751944D00F152CC /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		F3D4C0831751944D00F152CC /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		F3D4C0851751944D00F152CC /* Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arguments.h; sourceTree = "<group>"; };
+		F3D4C0861751944D00F152CC /* Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arguments.m; sourceTree = "<group>"; };
+		F3D4C0871751944D00F152CC /* BoundingBoxE6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundingBoxE6.h; sourceTree = "<group>"; };
+		F3D4C0881751944D00F152CC /* BoundingBoxE6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundingBoxE6.m; sourceTree = "<group>"; };
+		F3D4C0891751944D00F152CC /* DisplayPlaneModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayPlaneModelController.h; sourceTree = "<group>"; };
+		F3D4C08A1751944D00F152CC /* DisplayPlaneModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayPlaneModelController.m; sourceTree = "<group>"; };
+		F3D4C08B1751944D00F152CC /* ExternalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalStorage.h; sourceTree = "<group>"; };
+		F3D4C08C1751944D00F152CC /* ExternalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalStorage.m; sourceTree = "<group>"; };
+		F3D4C08D1751944D00F152CC /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F3D4C08E1751944D00F152CC /* GeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPoint.m; sourceTree = "<group>"; };
+		F3D4C08F1751944D00F152CC /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		F3D4C0901751944D00F152CC /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		F3D4C0921751944D00F152CC /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F3D4C0931751944D00F152CC /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		F3D4C0941751944D00F152CC /* HttpEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpEntity.h; sourceTree = "<group>"; };
+		F3D4C0951751944D00F152CC /* HttpEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpEntity.m; sourceTree = "<group>"; };
+		F3D4C0961751944D00F152CC /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponse.h; sourceTree = "<group>"; };
+		F3D4C0971751944D00F152CC /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpResponse.m; sourceTree = "<group>"; };
+		F3D4C0991751944D00F152CC /* BasicNameValuePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNameValuePair.h; sourceTree = "<group>"; };
+		F3D4C09A1751944D00F152CC /* BasicNameValuePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNameValuePair.m; sourceTree = "<group>"; };
+		F3D4C09B1751944D00F152CC /* MyHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHttpClient.h; sourceTree = "<group>"; };
+		F3D4C09C1751944D00F152CC /* MyHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHttpClient.m; sourceTree = "<group>"; };
+		F3D4C09D1751944D00F152CC /* NameValuePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameValuePair.h; sourceTree = "<group>"; };
+		F3D4C09E1751944D00F152CC /* NameValuePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameValuePair.m; sourceTree = "<group>"; };
+		F3D4C09F1751944D00F152CC /* StatusLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusLine.h; sourceTree = "<group>"; };
+		F3D4C0A01751944D00F152CC /* StatusLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusLine.m; sourceTree = "<group>"; };
+		F3D4C0A11751944D00F152CC /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F3D4C0A21751944D00F152CC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		F3D4C0A31751944D00F152CC /* LocationListenerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListenerDelegate.h; sourceTree = "<group>"; };
+		F3D4C0A41751944D00F152CC /* LocationListenerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListenerDelegate.m; sourceTree = "<group>"; };
+		F3D4C0A51751944D00F152CC /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		F3D4C0A61751944D00F152CC /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		F3D4C0A71751944D00F152CC /* LocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationProvider.h; sourceTree = "<group>"; };
+		F3D4C0A81751944D00F152CC /* LocationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationProvider.m; sourceTree = "<group>"; };
+		F3D4C0A91751944D00F152CC /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		F3D4C0AA1751944D00F152CC /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		F3D4C0AB1751944D00F152CC /* StorageSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageSerializer.h; sourceTree = "<group>"; };
+		F3D4C0AC1751944D00F152CC /* StorageSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageSerializer.m; sourceTree = "<group>"; };
+		F3D4C0AE1751944D00F152CC /* ActivityAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityAPI.h; sourceTree = "<group>"; };
+		F3D4C0AF1751944D00F152CC /* ActivityAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityAPI.m; sourceTree = "<group>"; };
+		F3D4C0B01751944D00F152CC /* Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arguments.h; sourceTree = "<group>"; };
+		F3D4C0B11751944D00F152CC /* Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arguments.m; sourceTree = "<group>"; };
+		F3D4C0B21751944D00F152CC /* BannerBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerBasket.h; sourceTree = "<group>"; };
+		F3D4C0B31751944D00F152CC /* BannerBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerBasket.m; sourceTree = "<group>"; };
+		F3D4C0B41751944D00F152CC /* BannersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannersController.h; sourceTree = "<group>"; };
+		F3D4C0B51751944D00F152CC /* BannersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannersController.m; sourceTree = "<group>"; };
+		F3D4C0B61751944D00F152CC /* BannersRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannersRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C0B71751944D00F152CC /* BannersRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannersRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C0B81751944D00F152CC /* BannerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerStore.h; sourceTree = "<group>"; };
+		F3D4C0B91751944D00F152CC /* BannerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerStore.m; sourceTree = "<group>"; };
+		F3D4C0BA1751944D00F152CC /* BusmeActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeActivityController.h; sourceTree = "<group>"; };
+		F3D4C0BB1751944D00F152CC /* BusmeActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeActivityController.m; sourceTree = "<group>"; };
+		F3D4C0BC1751944D00F152CC /* BusmeConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeConfigurator.h; sourceTree = "<group>"; };
+		F3D4C0BD1751944D00F152CC /* BusmeConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeConfigurator.m; sourceTree = "<group>"; };
+		F3D4C0BE1751944D00F152CC /* BusmeGeographyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusmeGeographyController.h; sourceTree = "<group>"; };
+		F3D4C0BF1751944D00F152CC /* BusmeGeographyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusmeGeographyController.m; sourceTree = "<group>"; };
+		F3D4C0C01751944D00F152CC /* BuspassEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuspassEvent.h; sourceTree = "<group>"; };
+		F3D4C0C11751944D00F152CC /* BuspassEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuspassEvent.m; sourceTree = "<group>"; };
+		F3D4C0C21751944D00F152CC /* BuspassEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuspassEventListener.h; sourceTree = "<group>"; };
+		F3D4C0C31751944D00F152CC /* BuspassEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuspassEventListener.m; sourceTree = "<group>"; };
+		F3D4C0C41751944D00F152CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F3D4C0C51751944D00F152CC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F3D4C0C61751944D00F152CC /* DisplayPlaneModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayPlaneModelController.h; sourceTree = "<group>"; };
+		F3D4C0C71751944D00F152CC /* DisplayPlaneModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayPlaneModelController.m; sourceTree = "<group>"; };
+		F3D4C0C81751944D00F152CC /* ExternalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalStorage.h; sourceTree = "<group>"; };
+		F3D4C0C91751944D00F152CC /* ExternalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalStorage.m; sourceTree = "<group>"; };
+		F3D4C0CA1751944D00F152CC /* GeoCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCalc.h; sourceTree = "<group>"; };
+		F3D4C0CB1751944D00F152CC /* GeoCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCalc.m; sourceTree = "<group>"; };
+		F3D4C0CC1751944D00F152CC /* GeoPathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPathUtils.h; sourceTree = "<group>"; };
+		F3D4C0CD1751944D00F152CC /* GeoPathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPathUtils.m; sourceTree = "<group>"; };
+		F3D4C0CE1751944D00F152CC /* GeoPointSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPointSerializable.h; sourceTree = "<group>"; };
+		F3D4C0CF1751944D00F152CC /* GeoPointSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPointSerializable.m; sourceTree = "<group>"; };
+		F3D4C0D01751944D00F152CC /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		F3D4C0D11751944D00F152CC /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		F3D4C0D21751944D00F152CC /* JourneyBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyBasket.h; sourceTree = "<group>"; };
+		F3D4C0D31751944D00F152CC /* JourneyBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyBasket.m; sourceTree = "<group>"; };
+		F3D4C0D41751944D00F152CC /* JourneyBasketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyBasketController.h; sourceTree = "<group>"; };
+		F3D4C0D51751944D00F152CC /* JourneyBasketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyBasketController.m; sourceTree = "<group>"; };
+		F3D4C0D61751944D00F152CC /* JourneyBasketSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyBasketSync.h; sourceTree = "<group>"; };
+		F3D4C0D71751944D00F152CC /* JourneyBasketSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyBasketSync.m; sourceTree = "<group>"; };
+		F3D4C0D81751944D00F152CC /* JourneyDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyDisplay.h; sourceTree = "<group>"; };
+		F3D4C0D91751944D00F152CC /* JourneyDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyDisplay.m; sourceTree = "<group>"; };
+		F3D4C0DA1751944D00F152CC /* JourneyLocationPoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyLocationPoster.h; sourceTree = "<group>"; };
+		F3D4C0DB1751944D00F152CC /* JourneyLocationPoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyLocationPoster.m; sourceTree = "<group>"; };
+		F3D4C0DC1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneysCurrentLocationRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C0DD1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneysCurrentLocationRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C0DE1751944D00F152CC /* JourneysSyncRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneysSyncRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C0DF1751944D00F152CC /* JourneysSyncRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneysSyncRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C0E01751944D00F152CC /* JourneyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyStore.h; sourceTree = "<group>"; };
+		F3D4C0E11751944D00F152CC /* JourneyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyStore.m; sourceTree = "<group>"; };
+		F3D4C0E21751944D00F152CC /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		F3D4C0E31751944D00F152CC /* Keys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keys.m; sourceTree = "<group>"; };
+		F3D4C0E41751944D00F152CC /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F3D4C0E51751944D00F152CC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		F3D4C0E61751944D00F152CC /* LocationBaseRouteFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationBaseRouteFinder.h; sourceTree = "<group>"; };
+		F3D4C0E71751944D00F152CC /* LocationBaseRouteFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationBaseRouteFinder.m; sourceTree = "<group>"; };
+		F3D4C0E81751944D00F152CC /* LocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListener.h; sourceTree = "<group>"; };
+		F3D4C0E91751944D00F152CC /* LocationListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListener.m; sourceTree = "<group>"; };
+		F3D4C0EA1751944D00F152CC /* LocationListenerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListenerDelegate.h; sourceTree = "<group>"; };
+		F3D4C0EB1751944D00F152CC /* LocationListenerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListenerDelegate.m; sourceTree = "<group>"; };
+		F3D4C0EC1751944D00F152CC /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		F3D4C0ED1751944D00F152CC /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		F3D4C0EE1751944D00F152CC /* LocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationProvider.h; sourceTree = "<group>"; };
+		F3D4C0EF1751944D00F152CC /* LocationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationProvider.m; sourceTree = "<group>"; };
+		F3D4C0F01751944D00F152CC /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		F3D4C0F11751944D00F152CC /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		F3D4C0F21751944D00F152CC /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		F3D4C0F31751944D00F152CC /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		F3D4C0F41751944D00F152CC /* MarkerBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerBasket.h; sourceTree = "<group>"; };
+		F3D4C0F51751944D00F152CC /* MarkerBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerBasket.m; sourceTree = "<group>"; };
+		F3D4C0F61751944D00F152CC /* MarkersRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkersRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C0F71751944D00F152CC /* MarkersRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkersRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C0F81751944D00F152CC /* MasterMessageBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterMessageBasket.h; sourceTree = "<group>"; };
+		F3D4C0F91751944D00F152CC /* MasterMessageBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterMessageBasket.m; sourceTree = "<group>"; };
+		F3D4C0FA1751944D00F152CC /* MasterMessagesRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterMessagesRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C0FB1751944D00F152CC /* MasterMessagesRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterMessagesRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C0FC1751944D00F152CC /* MessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStore.h; sourceTree = "<group>"; };
+		F3D4C0FD1751944D00F152CC /* MessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStore.m; sourceTree = "<group>"; };
+		F3D4C0FE1751944D00F152CC /* NewGetResponseProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGetResponseProcessor.h; sourceTree = "<group>"; };
+		F3D4C0FF1751944D00F152CC /* NewGetResponseProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGetResponseProcessor.m; sourceTree = "<group>"; };
+		F3D4C1001751944D00F152CC /* OnLocatorSelectedListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnLocatorSelectedListener.h; sourceTree = "<group>"; };
+		F3D4C1011751944D00F152CC /* OnLocatorSelectedListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnLocatorSelectedListener.m; sourceTree = "<group>"; };
+		F3D4C1021751944D00F152CC /* ProgressLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressLogger.h; sourceTree = "<group>"; };
+		F3D4C1031751944D00F152CC /* ProgressLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressLogger.m; sourceTree = "<group>"; };
+		F3D4C1041751944D00F152CC /* RatesRequestProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesRequestProcessor.h; sourceTree = "<group>"; };
+		F3D4C1051751944D00F152CC /* RatesRequestProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesRequestProcessor.m; sourceTree = "<group>"; };
+		F3D4C1061751944D00F152CC /* RequestUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUpdater.h; sourceTree = "<group>"; };
+		F3D4C1071751944D00F152CC /* RequestUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUpdater.m; sourceTree = "<group>"; };
+		F3D4C1081751944D00F152CC /* R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R.h; sourceTree = "<group>"; };
+		F3D4C1091751944D00F152CC /* R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R.m; sourceTree = "<group>"; };
+		F3D4C10C1751944D00F152CC /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		F3D4C10D1751944D00F152CC /* Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observable.m; sourceTree = "<group>"; };
+		F3D4C10E1751944D00F152CC /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		F3D4C10F1751944D00F152CC /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		F3D4C1131751944D00F152CC /* IGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGeoPoint.h; sourceTree = "<group>"; };
+		F3D4C1141751944D00F152CC /* IGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGeoPoint.m; sourceTree = "<group>"; };
+		F3D4C1171751944D00F152CC /* GeoConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoConstants.h; sourceTree = "<group>"; };
+		F3D4C1181751944D00F152CC /* GeoConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoConstants.m; sourceTree = "<group>"; };
+		F3D4C1191751944D00F152CC /* UtilConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilConstants.h; sourceTree = "<group>"; };
+		F3D4C11A1751944D00F152CC /* UtilConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilConstants.m; sourceTree = "<group>"; };
+		F3D4C332175195A200F152CC /* libjre_emul.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_emul.a; path = "/Users/polar/Downloads/j2objc-0.7.2/lib/libjre_emul.a"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F384B6BA1750F1DD00558DE1 /* MQMapKit.framework in Frameworks */,
+				F384B8491750F58800558DE1 /* QuartzCore.framework in Frameworks */,
+				F384B84F1750F5B000558DE1 /* CoreLocation.framework in Frameworks */,
+				F3D4C333175195A200F152CC /* libjre_emul.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0641751944D00F152CC /* com */,
+				F3D4C10A1751944D00F152CC /* java */,
+				F3D4C1101751944D00F152CC /* org */,
+				F384B6E31750F26300558DE1 /* BusmeMapView.h */,
+				F33BA6791752D90100B36CA0 /* iToast.h */,
+				F33BA67A1752D90100B36CA0 /* iToast.m */,
+				F384B6E41750F26300558DE1 /* BusmeMapView.m */,
+				F384B6E51750F26300558DE1 /* BusmeOverlayManager.h */,
+				F384B6E61750F26300558DE1 /* BusmeOverlayManager.m */,
+				1D3623240D0F684500981E51 /* BusmeIPhoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BusmeIPhoneAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* BusmeIPhoneViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BusmeIPhoneViewController.m */,
+				F33BA1391751E84900B36CA0 /* BusmeProgressDialogController.xib */,
+				F33BA2F917526C8B00B36CA0 /* BusmeProgressDialog.h */,
+				F33BA2FA17526C8B00B36CA0 /* BusmeProgressDialog.m */,
+				F33BA2FB17526C8B00B36CA0 /* BusmeProgressDialog.xib */,
+				F33BA74B1752F38000B36CA0 /* MasterMessagePopup.h */,
+				F33BA74C1752F38000B36CA0 /* MasterMessagePopup.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BusmeIPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4B9D91751796500F152CC /* edit */,
+				F3D4B9D3175178D800F152CC /* Makefile */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F33BA4AB1752AAFE00B36CA0 /* AGAlertViewWithProgressbar */,
+				F33BA0B31751DF2200B36CA0 /* obj.h */,
+				F33BA0B41751DF2200B36CA0 /* obj.c */,
+				32CA4F630368D1EE00C91783 /* BusmeIPhone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F384B9C9175114A400558DE1 /* BusmeIPhoneViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BusmeIPhone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F384B6B91750F1DD00558DE1 /* MQMapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				F384B8481750F58800558DE1 /* QuartzCore.framework */,
+				F384B84E1750F5B000558DE1 /* CoreLocation.framework */,
+				F3D4C332175195A200F152CC /* libjre_emul.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33BA4AB1752AAFE00B36CA0 /* AGAlertViewWithProgressbar */ = {
+			isa = PBXGroup;
+			children = (
+				F33BA4AC1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.h */,
+				F33BA4AD1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.m */,
+				F33BA4AE1752AAFE00B36CA0 /* LICENSE */,
+			);
+			path = AGAlertViewWithProgressbar;
+			sourceTree = "<group>";
+		};
+		F3D4C0641751944D00F152CC /* com */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0651751944D00F152CC /* adiron */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		F3D4C0651751944D00F152CC /* adiron */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0661751944D00F152CC /* busme */,
+			);
+			path = adiron;
+			sourceTree = "<group>";
+		};
+		F3D4C0661751944D00F152CC /* busme */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0671751944D00F152CC /* api */,
+				F3D4C0841751944D00F152CC /* integration */,
+				F3D4C0AD1751944D00F152CC /* platform */,
+				F3D4C1081751944D00F152CC /* R.h */,
+				F3D4C1091751944D00F152CC /* R.m */,
+			);
+			path = busme;
+			sourceTree = "<group>";
+		};
+		F3D4C0671751944D00F152CC /* api */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0681751944D00F152CC /* APIBase.h */,
+				F3D4C0691751944D00F152CC /* APIBase.m */,
+				F3D4C06A1751944D00F152CC /* BannerInfo.h */,
+				F3D4C06B1751944D00F152CC /* BannerInfo.m */,
+				F3D4C06C1751944D00F152CC /* Buspass.h */,
+				F3D4C06D1751944D00F152CC /* Buspass.m */,
+				F3D4C06E1751944D00F152CC /* BuspassAPI.h */,
+				F3D4C06F1751944D00F152CC /* BuspassAPI.m */,
+				F3D4C0701751944D00F152CC /* DiscoverAPI.h */,
+				F3D4C0711751944D00F152CC /* DiscoverAPI.m */,
+				F3D4C0721751944D00F152CC /* DiscoverAPIVersion1.h */,
+				F3D4C0731751944D00F152CC /* DiscoverAPIVersion1.m */,
+				F3D4C0741751944D00F152CC /* JourneyLocation.h */,
+				F3D4C0751751944D00F152CC /* JourneyLocation.m */,
+				F3D4C0761751944D00F152CC /* JourneyPattern.h */,
+				F3D4C0771751944D00F152CC /* JourneyPattern.m */,
+				F3D4C0781751944D00F152CC /* MarkerInfo.h */,
+				F3D4C0791751944D00F152CC /* MarkerInfo.m */,
+				F3D4C07A1751944D00F152CC /* Master.h */,
+				F3D4C07B1751944D00F152CC /* Master.m */,
+				F3D4C07C1751944D00F152CC /* MasterMessage.h */,
+				F3D4C07D1751944D00F152CC /* MasterMessage.m */,
+				F3D4C07E1751944D00F152CC /* NameId.h */,
+				F3D4C07F1751944D00F152CC /* NameId.m */,
+				F3D4C0801751944D00F152CC /* Route.h */,
+				F3D4C0811751944D00F152CC /* Route.m */,
+				F3D4C0821751944D00F152CC /* Storage.h */,
+				F3D4C0831751944D00F152CC /* Storage.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		F3D4C0841751944D00F152CC /* integration */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0851751944D00F152CC /* Arguments.h */,
+				F3D4C0861751944D00F152CC /* Arguments.m */,
+				F3D4C0871751944D00F152CC /* BoundingBoxE6.h */,
+				F3D4C0881751944D00F152CC /* BoundingBoxE6.m */,
+				F3D4C0891751944D00F152CC /* DisplayPlaneModelController.h */,
+				F3D4C08A1751944D00F152CC /* DisplayPlaneModelController.m */,
+				F3D4C08B1751944D00F152CC /* ExternalStorage.h */,
+				F3D4C08C1751944D00F152CC /* ExternalStorage.m */,
+				F3D4C08D1751944D00F152CC /* GeoPoint.h */,
+				F3D4C08E1751944D00F152CC /* GeoPoint.m */,
+				F3D4C08F1751944D00F152CC /* Handler.h */,
+				F3D4C0901751944D00F152CC /* Handler.m */,
+				F3D4C0911751944D00F152CC /* http */,
+				F3D4C0A11751944D00F152CC /* Location.h */,
+				F3D4C0A21751944D00F152CC /* Location.m */,
+				F3D4C0A31751944D00F152CC /* LocationListenerDelegate.h */,
+				F3D4C0A41751944D00F152CC /* LocationListenerDelegate.m */,
+				F3D4C0A51751944D00F152CC /* LocationManager.h */,
+				F3D4C0A61751944D00F152CC /* LocationManager.m */,
+				F3D4C0A71751944D00F152CC /* LocationProvider.h */,
+				F3D4C0A81751944D00F152CC /* LocationProvider.m */,
+				F3D4C0A91751944D00F152CC /* Log.h */,
+				F3D4C0AA1751944D00F152CC /* Log.m */,
+				F3D4C0AB1751944D00F152CC /* StorageSerializer.h */,
+				F3D4C0AC1751944D00F152CC /* StorageSerializer.m */,
+			);
+			path = integration;
+			sourceTree = "<group>";
+		};
+		F3D4C0911751944D00F152CC /* http */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0921751944D00F152CC /* Header.h */,
+				F3D4C0931751944D00F152CC /* Header.m */,
+				F3D4C0941751944D00F152CC /* HttpEntity.h */,
+				F3D4C0951751944D00F152CC /* HttpEntity.m */,
+				F3D4C0961751944D00F152CC /* HttpResponse.h */,
+				F3D4C0971751944D00F152CC /* HttpResponse.m */,
+				F3D4C0981751944D00F152CC /* message */,
+				F3D4C09B1751944D00F152CC /* MyHttpClient.h */,
+				F3D4C09C1751944D00F152CC /* MyHttpClient.m */,
+				F3D4C09D1751944D00F152CC /* NameValuePair.h */,
+				F3D4C09E1751944D00F152CC /* NameValuePair.m */,
+				F3D4C09F1751944D00F152CC /* StatusLine.h */,
+				F3D4C0A01751944D00F152CC /* StatusLine.m */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		F3D4C0981751944D00F152CC /* message */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0991751944D00F152CC /* BasicNameValuePair.h */,
+				F3D4C09A1751944D00F152CC /* BasicNameValuePair.m */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		F3D4C0AD1751944D00F152CC /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C0AE1751944D00F152CC /* ActivityAPI.h */,
+				F3D4C0AF1751944D00F152CC /* ActivityAPI.m */,
+				F3D4C0B01751944D00F152CC /* Arguments.h */,
+				F3D4C0B11751944D00F152CC /* Arguments.m */,
+				F3D4C0B21751944D00F152CC /* BannerBasket.h */,
+				F3D4C0B31751944D00F152CC /* BannerBasket.m */,
+				F3D4C0B41751944D00F152CC /* BannersController.h */,
+				F3D4C0B51751944D00F152CC /* BannersController.m */,
+				F3D4C0B61751944D00F152CC /* BannersRequestProcessor.h */,
+				F3D4C0B71751944D00F152CC /* BannersRequestProcessor.m */,
+				F3D4C0B81751944D00F152CC /* BannerStore.h */,
+				F3D4C0B91751944D00F152CC /* BannerStore.m */,
+				F3D4C0BA1751944D00F152CC /* BusmeActivityController.h */,
+				F3D4C0BB1751944D00F152CC /* BusmeActivityController.m */,
+				F3D4C0BC1751944D00F152CC /* BusmeConfigurator.h */,
+				F3D4C0BD1751944D00F152CC /* BusmeConfigurator.m */,
+				F3D4C0BE1751944D00F152CC /* BusmeGeographyController.h */,
+				F3D4C0BF1751944D00F152CC /* BusmeGeographyController.m */,
+				F3D4C0C01751944D00F152CC /* BuspassEvent.h */,
+				F3D4C0C11751944D00F152CC /* BuspassEvent.m */,
+				F3D4C0C21751944D00F152CC /* BuspassEventListener.h */,
+				F3D4C0C31751944D00F152CC /* BuspassEventListener.m */,
+				F3D4C0C41751944D00F152CC /* Constants.h */,
+				F3D4C0C51751944D00F152CC /* Constants.m */,
+				F3D4C0C61751944D00F152CC /* DisplayPlaneModelController.h */,
+				F3D4C0C71751944D00F152CC /* DisplayPlaneModelController.m */,
+				F3D4C0C81751944D00F152CC /* ExternalStorage.h */,
+				F3D4C0C91751944D00F152CC /* ExternalStorage.m */,
+				F3D4C0CA1751944D00F152CC /* GeoCalc.h */,
+				F3D4C0CB1751944D00F152CC /* GeoCalc.m */,
+				F3D4C0CC1751944D00F152CC /* GeoPathUtils.h */,
+				F3D4C0CD1751944D00F152CC /* GeoPathUtils.m */,
+				F3D4C0CE1751944D00F152CC /* GeoPointSerializable.h */,
+				F3D4C0CF1751944D00F152CC /* GeoPointSerializable.m */,
+				F3D4C0D01751944D00F152CC /* Handler.h */,
+				F3D4C0D11751944D00F152CC /* Handler.m */,
+				F3D4C0D21751944D00F152CC /* JourneyBasket.h */,
+				F3D4C0D31751944D00F152CC /* JourneyBasket.m */,
+				F3D4C0D41751944D00F152CC /* JourneyBasketController.h */,
+				F3D4C0D51751944D00F152CC /* JourneyBasketController.m */,
+				F3D4C0D61751944D00F152CC /* JourneyBasketSync.h */,
+				F3D4C0D71751944D00F152CC /* JourneyBasketSync.m */,
+				F3D4C0D81751944D00F152CC /* JourneyDisplay.h */,
+				F3D4C0D91751944D00F152CC /* JourneyDisplay.m */,
+				F3D4C0DA1751944D00F152CC /* JourneyLocationPoster.h */,
+				F3D4C0DB1751944D00F152CC /* JourneyLocationPoster.m */,
+				F3D4C0DC1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.h */,
+				F3D4C0DD1751944D00F152CC /* JourneysCurrentLocationRequestProcessor.m */,
+				F3D4C0DE1751944D00F152CC /* JourneysSyncRequestProcessor.h */,
+				F3D4C0DF1751944D00F152CC /* JourneysSyncRequestProcessor.m */,
+				F3D4C0E01751944D00F152CC /* JourneyStore.h */,
+				F3D4C0E11751944D00F152CC /* JourneyStore.m */,
+				F3D4C0E21751944D00F152CC /* Keys.h */,
+				F3D4C0E31751944D00F152CC /* Keys.m */,
+				F3D4C0E41751944D00F152CC /* Location.h */,
+				F3D4C0E51751944D00F152CC /* Location.m */,
+				F3D4C0E61751944D00F152CC /* LocationBaseRouteFinder.h */,
+				F3D4C0E71751944D00F152CC /* LocationBaseRouteFinder.m */,
+				F3D4C0E81751944D00F152CC /* LocationListener.h */,
+				F3D4C0E91751944D00F152CC /* LocationListener.m */,
+				F3D4C0EA1751944D00F152CC /* LocationListenerDelegate.h */,
+				F3D4C0EB1751944D00F152CC /* LocationListenerDelegate.m */,
+				F3D4C0EC1751944D00F152CC /* LocationManager.h */,
+				F3D4C0ED1751944D00F152CC /* LocationManager.m */,
+				F3D4C0EE1751944D00F152CC /* LocationProvider.h */,
+				F3D4C0EF1751944D00F152CC /* LocationProvider.m */,
+				F3D4C0F01751944D00F152CC /* Log.h */,
+				F3D4C0F11751944D00F152CC /* Log.m */,
+				F3D4C0F21751944D00F152CC /* LoginManager.h */,
+				F3D4C0F31751944D00F152CC /* LoginManager.m */,
+				F3D4C0F41751944D00F152CC /* MarkerBasket.h */,
+				F3D4C0F51751944D00F152CC /* MarkerBasket.m */,
+				F3D4C0F61751944D00F152CC /* MarkersRequestProcessor.h */,
+				F3D4C0F71751944D00F152CC /* MarkersRequestProcessor.m */,
+				F3D4C0F81751944D00F152CC /* MasterMessageBasket.h */,
+				F3D4C0F91751944D00F152CC /* MasterMessageBasket.m */,
+				F3D4C0FA1751944D00F152CC /* MasterMessagesRequestProcessor.h */,
+				F3D4C0FB1751944D00F152CC /* MasterMessagesRequestProcessor.m */,
+				F3D4C0FC1751944D00F152CC /* MessageStore.h */,
+				F3D4C0FD1751944D00F152CC /* MessageStore.m */,
+				F3D4C0FE1751944D00F152CC /* NewGetResponseProcessor.h */,
+				F3D4C0FF1751944D00F152CC /* NewGetResponseProcessor.m */,
+				F3D4C1001751944D00F152CC /* OnLocatorSelectedListener.h */,
+				F3D4C1011751944D00F152CC /* OnLocatorSelectedListener.m */,
+				F3D4C1021751944D00F152CC /* ProgressLogger.h */,
+				F3D4C1031751944D00F152CC /* ProgressLogger.m */,
+				F3D4C1041751944D00F152CC /* RatesRequestProcessor.h */,
+				F3D4C1051751944D00F152CC /* RatesRequestProcessor.m */,
+				F3D4C1061751944D00F152CC /* RequestUpdater.h */,
+				F3D4C1071751944D00F152CC /* RequestUpdater.m */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		F3D4C10A1751944D00F152CC /* java */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C10B1751944D00F152CC /* util */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		F3D4C10B1751944D00F152CC /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C10C1751944D00F152CC /* Observable.h */,
+				F3D4C10D1751944D00F152CC /* Observable.m */,
+				F3D4C10E1751944D00F152CC /* Observer.h */,
+				F3D4C10F1751944D00F152CC /* Observer.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		F3D4C1101751944D00F152CC /* org */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C1111751944D00F152CC /* osmdroid */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		F3D4C1111751944D00F152CC /* osmdroid */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C1121751944D00F152CC /* api */,
+				F3D4C1151751944D00F152CC /* util */,
+			);
+			path = osmdroid;
+			sourceTree = "<group>";
+		};
+		F3D4C1121751944D00F152CC /* api */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C1131751944D00F152CC /* IGeoPoint.h */,
+				F3D4C1141751944D00F152CC /* IGeoPoint.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		F3D4C1151751944D00F152CC /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C1161751944D00F152CC /* constants */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		F3D4C1161751944D00F152CC /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4C1171751944D00F152CC /* GeoConstants.h */,
+				F3D4C1181751944D00F152CC /* GeoConstants.m */,
+				F3D4C1191751944D00F152CC /* UtilConstants.h */,
+				F3D4C11A1751944D00F152CC /* UtilConstants.m */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		F3D4BC3117518DE900F152CC /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D4BD9A1751915400F152CC /* BusmeMapView.h in JavaArchive */,
+				F3D4BD9B1751915400F152CC /* BusmeOverlayManager.h in JavaArchive */,
+				F3D4BD9C1751915400F152CC /* BusmeIPhoneAppDelegate.h in JavaArchive */,
+				F3D4BD9D1751915400F152CC /* BusmeIPhoneViewController.h in JavaArchive */,
+				F3D4C2611751944D00F152CC /* APIBase.h in JavaArchive */,
+				F3D4C2631751944D00F152CC /* BannerInfo.h in JavaArchive */,
+				F3D4C2651751944D00F152CC /* Buspass.h in JavaArchive */,
+				F3D4C2671751944D00F152CC /* BuspassAPI.h in JavaArchive */,
+				F3D4C2691751944D00F152CC /* DiscoverAPI.h in JavaArchive */,
+				F3D4C26B1751944D00F152CC /* DiscoverAPIVersion1.h in JavaArchive */,
+				F3D4C26D1751944D00F152CC /* JourneyLocation.h in JavaArchive */,
+				F3D4C26F1751944D00F152CC /* JourneyPattern.h in JavaArchive */,
+				F3D4C2711751944D00F152CC /* MarkerInfo.h in JavaArchive */,
+				F3D4C2731751944D00F152CC /* Master.h in JavaArchive */,
+				F3D4C2751751944D00F152CC /* MasterMessage.h in JavaArchive */,
+				F3D4C2771751944D00F152CC /* NameId.h in JavaArchive */,
+				F3D4C2791751944D00F152CC /* Route.h in JavaArchive */,
+				F3D4C27B1751944D00F152CC /* Storage.h in JavaArchive */,
+				F3D4C27D1751944D00F152CC /* Arguments.h in JavaArchive */,
+				F3D4C27F1751944D00F152CC /* BoundingBoxE6.h in JavaArchive */,
+				F3D4C2811751944D00F152CC /* DisplayPlaneModelController.h in JavaArchive */,
+				F3D4C2831751944D00F152CC /* ExternalStorage.h in JavaArchive */,
+				F3D4C2851751944D00F152CC /* GeoPoint.h in JavaArchive */,
+				F3D4C2871751944D00F152CC /* Handler.h in JavaArchive */,
+				F3D4C2891751944D00F152CC /* Header.h in JavaArchive */,
+				F3D4C28B1751944D00F152CC /* HttpEntity.h in JavaArchive */,
+				F3D4C28D1751944D00F152CC /* HttpResponse.h in JavaArchive */,
+				F3D4C28F1751944D00F152CC /* BasicNameValuePair.h in JavaArchive */,
+				F3D4C2911751944D00F152CC /* MyHttpClient.h in JavaArchive */,
+				F3D4C2931751944D00F152CC /* NameValuePair.h in JavaArchive */,
+				F3D4C2951751944D00F152CC /* StatusLine.h in JavaArchive */,
+				F3D4C2971751944D00F152CC /* Location.h in JavaArchive */,
+				F3D4C2991751944D00F152CC /* LocationListenerDelegate.h in JavaArchive */,
+				F3D4C29B1751944D00F152CC /* LocationManager.h in JavaArchive */,
+				F3D4C29D1751944D00F152CC /* LocationProvider.h in JavaArchive */,
+				F3D4C29F1751944D00F152CC /* Log.h in JavaArchive */,
+				F3D4C2A11751944D00F152CC /* StorageSerializer.h in JavaArchive */,
+				F3D4C2A31751944D00F152CC /* ActivityAPI.h in JavaArchive */,
+				F3D4C2A51751944D00F152CC /* Arguments.h in JavaArchive */,
+				F3D4C2A71751944D00F152CC /* BannerBasket.h in JavaArchive */,
+				F3D4C2A91751944D00F152CC /* BannersController.h in JavaArchive */,
+				F3D4C2AB1751944D00F152CC /* BannersRequestProcessor.h in JavaArchive */,
+				F3D4C2AD1751944D00F152CC /* BannerStore.h in JavaArchive */,
+				F3D4C2AF1751944D00F152CC /* BusmeActivityController.h in JavaArchive */,
+				F3D4C2B11751944D00F152CC /* BusmeConfigurator.h in JavaArchive */,
+				F3D4C2B31751944D00F152CC /* BusmeGeographyController.h in JavaArchive */,
+				F3D4C2B51751944D00F152CC /* BuspassEvent.h in JavaArchive */,
+				F3D4C2B71751944D00F152CC /* BuspassEventListener.h in JavaArchive */,
+				F3D4C2B91751944D00F152CC /* Constants.h in JavaArchive */,
+				F3D4C2BB1751944D00F152CC /* DisplayPlaneModelController.h in JavaArchive */,
+				F3D4C2BD1751944D00F152CC /* ExternalStorage.h in JavaArchive */,
+				F3D4C2BF1751944D00F152CC /* GeoCalc.h in JavaArchive */,
+				F3D4C2C11751944D00F152CC /* GeoPathUtils.h in JavaArchive */,
+				F3D4C2C31751944D00F152CC /* GeoPointSerializable.h in JavaArchive */,
+				F3D4C2C51751944D00F152CC /* Handler.h in JavaArchive */,
+				F3D4C2C71751944D00F152CC /* JourneyBasket.h in JavaArchive */,
+				F3D4C2C91751944D00F152CC /* JourneyBasketController.h in JavaArchive */,
+				F3D4C2CB1751944D00F152CC /* JourneyBasketSync.h in JavaArchive */,
+				F3D4C2CD1751944D00F152CC /* JourneyDisplay.h in JavaArchive */,
+				F3D4C2CF1751944D00F152CC /* JourneyLocationPoster.h in JavaArchive */,
+				F3D4C2D11751944D00F152CC /* JourneysCurrentLocationRequestProcessor.h in JavaArchive */,
+				F3D4C2D31751944D00F152CC /* JourneysSyncRequestProcessor.h in JavaArchive */,
+				F3D4C2D51751944D00F152CC /* JourneyStore.h in JavaArchive */,
+				F3D4C2D71751944D00F152CC /* Keys.h in JavaArchive */,
+				F3D4C2D91751944D00F152CC /* Location.h in JavaArchive */,
+				F3D4C2DB1751944D00F152CC /* LocationBaseRouteFinder.h in JavaArchive */,
+				F3D4C2DD1751944D00F152CC /* LocationListener.h in JavaArchive */,
+				F3D4C2DF1751944D00F152CC /* LocationListenerDelegate.h in JavaArchive */,
+				F3D4C2E11751944D00F152CC /* LocationManager.h in JavaArchive */,
+				F3D4C2E31751944D00F152CC /* LocationProvider.h in JavaArchive */,
+				F3D4C2E51751944D00F152CC /* Log.h in JavaArchive */,
+				F3D4C2E71751944D00F152CC /* LoginManager.h in JavaArchive */,
+				F3D4C2E91751944D00F152CC /* MarkerBasket.h in JavaArchive */,
+				F3D4C2EB1751944D00F152CC /* MarkersRequestProcessor.h in JavaArchive */,
+				F3D4C2ED1751944D00F152CC /* MasterMessageBasket.h in JavaArchive */,
+				F3D4C2EF1751944D00F152CC /* MasterMessagesRequestProcessor.h in JavaArchive */,
+				F3D4C2F11751944D00F152CC /* MessageStore.h in JavaArchive */,
+				F3D4C2F31751944D00F152CC /* NewGetResponseProcessor.h in JavaArchive */,
+				F3D4C2F51751944D00F152CC /* OnLocatorSelectedListener.h in JavaArchive */,
+				F3D4C2F71751944D00F152CC /* ProgressLogger.h in JavaArchive */,
+				F3D4C2F91751944D00F152CC /* RatesRequestProcessor.h in JavaArchive */,
+				F3D4C2FB1751944D00F152CC /* RequestUpdater.h in JavaArchive */,
+				F3D4C2FD1751944D00F152CC /* R.h in JavaArchive */,
+				F3D4C2FF1751944D00F152CC /* Observable.h in JavaArchive */,
+				F3D4C3011751944D00F152CC /* Observer.h in JavaArchive */,
+				F3D4C3031751944D00F152CC /* IGeoPoint.h in JavaArchive */,
+				F3D4C3051751944D00F152CC /* GeoConstants.h in JavaArchive */,
+				F3D4C3071751944D00F152CC /* UtilConstants.h in JavaArchive */,
+				F33BA0B51751DF2200B36CA0 /* obj.h in JavaArchive */,
+				F33BA2FC17526C8B00B36CA0 /* BusmeProgressDialog.h in JavaArchive */,
+				F33BA4AF1752AAFE00B36CA0 /* AGAlertViewWithProgressbar.h in JavaArchive */,
+				F33BA67B1752D90100B36CA0 /* iToast.h in JavaArchive */,
+				F33BA74E1752F38000B36CA0 /* MasterMessagePopup.h in JavaArchive */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		F3D4B9C81751781A00F152CC /* GenerateFromJava */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = F3D4B9CB1751783900F152CC /* Build configuration list for PBXLegacyTarget "GenerateFromJava" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/polar/BusmeIPhone;
+			dependencies = (
+			);
+			name = GenerateFromJava;
+			passBuildSettingsInEnvironment = 1;
+			productName = GenerateFromJava;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BusmeIPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BusmeIPhone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				F3D4BC3117518DE900F152CC /* JavaArchive */,
+				F3D4BDA11751924400F152CC /* CopyFiles */,
+				F3D4BDA21751924400F152CC /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusmeIPhone;
+			productName = BusmeIPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* BusmeIPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BusmeIPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BusmeIPhone */,
+				F3D4B9C81751781A00F152CC /* GenerateFromJava */,
+				F3D4BDA51751934300F152CC /* PutitTogether */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F384B9CA175114A400558DE1 /* BusmeIPhoneViewController.xib in Resources */,
+				F3D4B9DA1751796500F152CC /* edit in Resources */,
+				F33BA13C1751E84900B36CA0 /* BusmeProgressDialogController.xib in Resources */,
+				F33BA2FE17526C8B00B36CA0 /* BusmeProgressDialog.xib in Resources */,
+				F33BA4B11752AAFE00B36CA0 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F3D4BDA21751924400F152CC /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BusmeIPhoneAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BusmeIPhoneViewController.m in Sources */,
+				F384B6E71750F26300558DE1 /* BusmeMapView.m in Sources */,
+				F384B6E81750F26300558DE1 /* BusmeOverlayManager.m in Sources */,
+				F3D4B9D4175178D800F152CC /* Makefile in Sources */,
+				F3D4C2621751944D00F152CC /* APIBase.m in Sources */,
+				F3D4C2641751944D00F152CC /* BannerInfo.m in Sources */,
+				F3D4C2661751944D00F152CC /* Buspass.m in Sources */,
+				F3D4C2681751944D00F152CC /* BuspassAPI.m in Sources */,
+				F3D4C26A1751944D00F152CC /* DiscoverAPI.m in Sources */,
+				F3D4C26C1751944D00F152CC /* DiscoverAPIVersion1.m in Sources */,
+				F3D4C26E1751944D00F152CC /* JourneyLocation.m in Sources */,
+				F3D4C2701751944D00F152CC /* JourneyPattern.m in Sources */,
+				F3D4C2721751944D00F152CC /* MarkerInfo.m in Sources */,
+				F3D4C2741751944D00F152CC /* Master.m in Sources */,
+				F3D4C2761751944D00F152CC /* MasterMessage.m in Sources */,
+				F3D4C2781751944D00F152CC /* NameId.m in Sources */,
+				F3D4C27A1751944D00F152CC /* Route.m in Sources */,
+				F3D4C27C1751944D00F152CC /* Storage.m in Sources */,
+				F3D4C27E1751944D00F152CC /* Arguments.m in Sources */,
+				F3D4C2801751944D00F152CC /* BoundingBoxE6.m in Sources */,
+				F3D4C2821751944D00F152CC /* DisplayPlaneModelController.m in Sources */,
+				F3D4C2841751944D00F152CC /* ExternalStorage.m in Sources */,
+				F3D4C2861751944D00F152CC /* GeoPoint.m in Sources */,
+				F3D4C2881751944D00F152CC /* Handler.m in Sources */,
+				F3D4C28A1751944D00F152CC /* Header.m in Sources */,
+				F3D4C28C1751944D00F152CC /* HttpEntity.m in Sources */,
+				F3D4C28E1751944D00F152CC /* HttpResponse.m in Sources */,
+				F3D4C2901751944D00F152CC /* BasicNameValuePair.m in Sources */,
+				F3D4C2921751944D00F152CC /* MyHttpClient.m in Sources */,
+				F3D4C2941751944D00F152CC /* NameValuePair.m in Sources */,
+				F3D4C2961751944D00F152CC /* StatusLine.m in Sources */,
+				F3D4C2981751944D00F152CC /* Location.m in Sources */,
+				F3D4C29A1751944D00F152CC /* LocationListenerDelegate.m in Sources */,
+				F3D4C29C1751944D00F152CC /* LocationManager.m in Sources */,
+				F3D4C29E1751944D00F152CC /* LocationProvider.m in Sources */,
+				F3D4C2A01751944D00F152CC /* Log.m in Sources */,
+				F3D4C2A21751944D00F152CC /* StorageSerializer.m in Sources */,
+				F3D4C2A41751944D00F152CC /* ActivityAPI.m in Sources */,
+				F3D4C2A61751944D00F152CC /* Arguments.m in Sources */,
+				F3D4C2A81751944D00F152CC /* BannerBasket.m in Sources */,
+				F3D4C2AA1751944D00F152CC /* BannersController.m in Sources */,
+				F3D4C2AC1751944D00F152CC /* BannersRequestProcessor.m in Sources */,
+				F3D4C2AE1751944D00F152CC /* BannerStore.m in Sources */,
+				F3D4C2B01751944D00F152CC /* BusmeActivityController.m in Sources */,
+				F3D4C2B21751944D00F152CC /* BusmeConfigurator.m in Sources */,
+				F3D4C2B41751944D00F152CC /* BusmeGeographyController.m in Sources */,
+				F3D4C2B61751944D00F152CC /* BuspassEvent.m in Sources */,
+				F3D4C2B81751944D00F152CC /* BuspassEventListener.m in Sources */,
+				F3D4C2BA1751944D00F152CC /* Constants.m in Sources */,
+				F3D4C2BC1751944D00F152CC /* DisplayPlaneModelController.m in Sources */,
+				F3D4C2BE1751944D00F152CC /* ExternalStorage.m in Sources */,
+				F3D4C2C01751944D00F152CC /* GeoCalc.m in Sources */,
+				F3D4C2C21751944D00F152CC /* GeoPathUtils.m in Sources */,
+				F3D4C2C41751944D00F152CC /* GeoPointSerializable.m in Sources */,
+				F3D4C2C61751944D00F152CC /* Handler.m in Sources */,
+				F3D4C2C81751944D00F152CC /* JourneyBasket.m in Sources */,
+				F3D4C2CA1751944D00F152CC /* JourneyBasketController.m in Sources */,
+				F3D4C2CC1751944D00F152CC /* JourneyBasketSync.m in Sources */,
+				F3D4C2CE1751944D00F152CC /* JourneyDisplay.m in Sources */,
+				F3D4C2D01751944D00F152CC /* JourneyLocationPoster.m in Sources */,
+				F3D4C2D21751944D00F152CC /* JourneysCurrentLocationRequestProcessor.m in Sources */,
+				F3D4C2D41751944D00F152CC /* JourneysSyncRequestProcessor.m in Sources */,
+				F3D4C2D61751944D00F152CC /* JourneyStore.m in Sources */,
+				F3D4C2D81751944D00F152CC /* Keys.m in Sources */,
+				F3D4C2DA1751944D00F152CC /* Location.m in Sources */,
+				F3D4C2DC1751944D00F152CC /* LocationBaseRouteFinder.m in Sources */,
+				F3D4C2DE1751944D00F152CC /* LocationListener.m in Sources */,
+				F3D4C2E01751944D00F152CC /* LocationListenerDelegate.m in Sources */,
+				F3D4C2E21751944D00F152CC /* LocationManager.m in Sources */,
+				F3D4C2E41751944D00F152CC /* LocationProvider.m in Sources */,
+				F3D4C2E61751944D00F152CC /* Log.m in Sources */,
+				F3D4C2E81751944D00F152CC /* LoginManager.m in Sources */,
+				F3D4C2EA1751944D00F152CC /* MarkerBasket.m in Sources */,
+				F3D4C2EC1751944D00F152CC /* MarkersRequestProcessor.m in Sources */,
+				F3D4C2EE1751944D00F152CC /* MasterMessageBasket.m in Sources */,
+				F3D4C2F01751944D00F152CC /* MasterMessagesRequestProcessor.m in Sources */,
+				F3D4C2F21751944D00F152CC /* MessageStore.m in Sources */,
+				F3D4C2F41751944D00F152CC /* NewGetResponseProcessor.m in Sources */,
+				F3D4C2F61751944D00F152CC /* OnLocatorSelectedListener.m in Sources */,
+				F3D4C2F81751944D00F152CC /* ProgressLogger.m in Sources */,
+				F3D4C2FA1751944D00F152CC /* RatesRequestProcessor.m in Sources */,
+				F3D4C2FC1751944D00F152CC /* RequestUpdater.m in Sources */,
+				F3D4C2FE1751944D00F152CC /* R.m in Sources */,
+				F3D4C3001751944D00F152CC /* Observable.m in Sources */,
+				F3D4C3021751944D00F152CC /* Observer.m in Sources */,
+				F3D4C3041751944D00F152CC /* IGeoPoint.m in Sources */,
+				F3D4C3061751944D00F152CC /* GeoConstants.m in Sources */,
+				F3D4C3081751944D00F152CC /* UtilConstants.m in Sources */,
+				F33BA0B61751DF2200B36CA0 /* obj.c in Sources */,
+				F33BA2FD17526C8B00B36CA0 /* BusmeProgressDialog.m in Sources */,
+				F33BA4B01752AAFE00B36CA0 /* AGAlertViewWithProgressbar.m in Sources */,
+				F33BA67C1752D90100B36CA0 /* iToast.m in Sources */,
+				F33BA74F1752F38000B36CA0 /* MasterMessagePopup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D4BDA91751934B00F152CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D4B9C81751781A00F152CC /* GenerateFromJava */;
+			targetProxy = F3D4BDA81751934B00F152CC /* PBXContainerItemProxy */;
+		};
+		F3D4BDAB1751936100F152CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* BusmeIPhone */;
+			targetProxy = F3D4BDAA1751936100F152CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BusmeIPhone_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/polar/Downloads/j2objc-0.7.2/include";
+				INFOPLIST_FILE = "BusmeIPhone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Downloads/j2objc-0.7.2/lib\"",
+				);
+				PRODUCT_NAME = BusmeIPhone;
+				USER_HEADER_SEARCH_PATHS = /Users/polar/BusmeIPhone/Classes;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BusmeIPhone_Prefix.pch;
+				INFOPLIST_FILE = "BusmeIPhone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Downloads/j2objc-0.7.2/lib\"",
+				);
+				PRODUCT_NAME = BusmeIPhone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.3_2;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-lObj-c";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F3D4B9C91751781B00F152CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = GenerateFromJava;
+			};
+			name = Debug;
+		};
+		F3D4B9CA1751781B00F152CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = GenerateFromJava;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F3D4BDA61751934300F152CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = PutitTogether;
+			};
+			name = Debug;
+		};
+		F3D4BDA71751934300F152CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = PutitTogether;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BusmeIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BusmeIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D4B9CB1751783900F152CC /* Build configuration list for PBXLegacyTarget "GenerateFromJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D4B9C91751781B00F152CC /* Debug */,
+				F3D4B9CA1751781B00F152CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D4BDAE1751937F00F152CC /* Build configuration list for PBXAggregateTarget "PutitTogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D4BDA61751934300F152CC /* Debug */,
+				F3D4BDA71751934300F152CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo $1
+sed "s/\\.iphone//" $1 >/tmp/x
+cp /tmp/x $1
